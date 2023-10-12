@@ -1,0 +1,281 @@
+/* Header */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Luina {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.luina img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+
+.li {
+    list-style-type: none;
+    /*margin: 0px 50px 0px 50px;*/
+}
+
+.li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+/* Main */
+
+.main {
+    text-align: center;
+    margin-top: 40px;
+    width: 100vw;
+}
+
+.main img{
+    width: 100vw;
+}
+
+.titulo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: palevioletred;
+    color: white;
+}
+
+    
+.productos {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.postre{
+    width: 33%;
+    max-width: 30vw;
+    height: auto;
+}
+
+.postre img{
+    width: 100%;
+    height: auto;
+}
+
+.postre:hover {
+    transform: scale(1.05);
+}
+
+
+.postre p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: palevioletred;
+    color: white;
+
+}
+
+.titulo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: palevioletred;
+    color: white;
+    
+}
+
+
+
+
+/* Footer */
+
+
+
+.footer {
+    
+    background-color: blueviolet;
+    padding: 40px 0;
+    margin-top: 20px;
+
+
+}
+
+
+.footer-column {
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 15%;
+
+}
+
+
+
+.footer-links {
+    padding: 0 15px;
+   
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer-links li {
+
+    list-style-type: none;
+
+}
+
+.footer-links h2 {
+
+    font-size: medium;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2 px white;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.fa-facebook  {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+/* Nosotros */
+
+
+
+
+.luina-nosotros h2{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px 0 20px 10px;
+
+}
+
+
+
+.descripcion p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/* Productos */
+
+
+
+.tarjetas {
+    margin: 3 rem;
+    border: 3 px solid blueviolet;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 100%;
+
+}
+
+.tarjeta {
+    background-color: pink;
+    padding: 1rem;
+    border: 3px solip blueviolet;
+    width: 100%;
+    text-align: center;
+
+}
+
+.tarjeta img {
+    width: 50%;
+    
+}
+
+/* Eventos */
+
+.carousel-item {
+    max-height: 75vh
+}
+
+
+
+
+/* Contacto */
+
+.formulario ul{
+    list-style: none;
+}
+
+.formulario li {
+
+   margin: 30px 0 ; 
+   padding: 15px;
+
+}
+
+
+
+
+.btn {
+    padding: 10px;
+    gap: 1rem;
+    margin-left: 15px;
+}
+
+/*Media Queries*/
+
+@media (max-width: 480px) {
+    .li a {
+        color: rgb(245, 52, 171);
+    }
+
+}
+
