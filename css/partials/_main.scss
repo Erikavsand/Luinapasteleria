@@ -1,0 +1,66 @@
+.main {
+    text-align: center;
+    margin-top: 40px;
+    width: 100vw;
+
+    img{
+        width: 90%;
+        height: 600px;
+    }
+    
+
+}
+    .titulo h1 {
+        font-family: $fontArial;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: palevioletred;
+        color: $colorWhite;
+    }
+    
+        
+    .productos {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    .postre{
+        width: 33%;
+        max-width: 30vw;
+        height: auto;
+    }
+    
+    .postre img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .postre:hover {
+        transform: scale(1.05);
+
+    }
+    
+    
+    .postre p {
+        font-size: 1.5rem;
+        font-family: $fontArial;
+        background-color: palevioletred;
+        color: $colorWhite;
+    
+    }
+    
+    .titulo h2 {
+        font-family: $fontArial;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: palevioletred;
+        color: $colorWhite;
+        
+    }

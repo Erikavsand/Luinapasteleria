@@ -1,0 +1,21 @@
+.nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    .li {
+        list-style-type: none;
+        /*margin: 0px 50px 0px 50px;*/
+    }
+    
+    .li a{
+        text-decoration: none;
+        color: $colorViolet;
+        font-weight: bold;
+    }
+}

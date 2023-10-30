@@ -1,0 +1,64 @@
+.footer {
+    
+    background-color: $colorViolet;
+    padding: 40px 0;
+    margin-top: 20px;
+
+    .footer-column {
+
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding: 0 15%;
+    
+    }
+    
+    
+    
+    .footer-links {
+        padding: 0 15px;
+       
+    }
+    
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    
+    .footer-links li {
+    
+        list-style-type: none;
+    
+    }
+    
+    .footer-links h2 {
+    
+        font-size: medium;
+        color: $colorWhite;
+        margin-bottom: 25px;
+        font-weight: 500;
+        border-bottom: 2 px $colorWhite;
+        padding-bottom: 10px;
+        display: inline-block;
+        font-family: $fontArial;
+        font-weight: bold;
+    
+    
+    }
+    
+    .footer-links a{
+        text-decoration: none;
+        color: $colorWhite;
+        font-family: $fontArial;
+        font-weight: bold;
+        
+    }
+    
+    .fa-facebook  {
+        width: 100px;
+        height: 100px;
+    }
+
+
+}
