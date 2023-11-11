@@ -1,18 +1,19 @@
-.formulario ul{
-    list-style: none;
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
 
-    .formulario li {
+    .contenedor-botones{
+        display: flex;
 
-        margin: 30px 0 ; 
-        padding: 15px;
-     
-     }
-          
-     
-     .btn {
-         padding: 10px;
-         gap: 1rem;
-         margin-left: 15px;
-     }
+        .boton {
+            margin-top: 10px;
+            width: 20%;
+            margin-right: 10px;
+    
+        }
+    }
 
 }
+

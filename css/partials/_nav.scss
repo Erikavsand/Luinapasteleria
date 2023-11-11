@@ -7,15 +7,17 @@
     justify-content: space-around;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
    
-    .li {
+    li {
         list-style-type: none;
         /*margin: 0px 50px 0px 50px;*/
-    }
     
-    .li a{
+
+        a {
         text-decoration: none;
         color: $colorViolet;
         font-weight: bold;
+        }
     }
 }

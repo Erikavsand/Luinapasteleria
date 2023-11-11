@@ -30,12 +30,13 @@
   justify-content: space-around;
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
 }
-.nav ul .li {
+.nav ul li {
   list-style-type: none;
   /*margin: 0px 50px 0px 50px;*/
 }
-.nav ul .li a {
+.nav ul li a {
   text-decoration: none;
   color: purple;
   font-weight: bold;
@@ -91,7 +92,7 @@
 }
 
 .titulo h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif !important;
   text-align: center;
   margin-top: 35px;
   margin-bottom: 35px;
@@ -126,7 +127,7 @@
   color: white;
   margin-bottom: 25px;
   font-weight: 500;
-  border-bottom: 2 px white;
+  border-bottom: 2px white;
   padding-bottom: 10px;
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
@@ -170,7 +171,7 @@
 .tarjetas .tarjeta {
   background-color: pink;
   padding: 1rem;
-  border: 3px solip purple;
+  border: 3px solid purple;
   width: 100%;
   text-align: center;
 }
@@ -196,24 +197,32 @@
   flex-direction: column;
 }
 
-.formulario ul {
-  list-style: none;
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
 }
-.formulario ul .formulario li {
-  margin: 30px 0;
-  padding: 15px;
+.formulario .contenedor-botones {
+  display: flex;
 }
-.formulario ul .btn {
-  padding: 10px;
-  gap: 1rem;
-  margin-left: 15px;
+.formulario .contenedor-botones .boton {
+  margin-top: 10px;
+  width: 20%;
+  margin-right: 10px;
 }
 
 @media (max-width: 480px) {
-  .li a {
+  .nav ul {
+    font-size: medium;
+  }
+  .nav ul li a {
     color: rgb(245, 52, 171);
   }
   .tarjetas {
     grid-template-columns: 1fr 1fr;
+  }
+  .main img {
+    height: auto;
   }
 }/*# sourceMappingURL=style.css.map */

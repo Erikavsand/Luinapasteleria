@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La pasteleria de Luina</title>
+    <title>Contacto</title>
+    <meta name="description" content="Dejanos tu mensaje y personalizamos tu pedido">
+    <meta name="keywords" content="contacto, pedido, datos, formulario, atencion al cliente">
     <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -32,25 +34,29 @@
         </div>
 
 
-         <div class="formulario">
-            <form>
-            <ul>
-                <li><label for="nombre">Nombre:</label>
-                <input type="text" id="Nombre"></li>
+        <div class="container-formulario">
+            <form class="formulario">
+                <p>Nombre completo:</p>
+                <input type="text">
+       
+                <p>Correo electrónico:</p>
+                <input type="email">
+       
+                <p>Teléfono:</p>
+                <input type="tel">
+       
+                <p>Mensaje:</p>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+       
 
-                <li><label for="email">Email:</label>
-                <input type="Email" id="Email"></li>
-
-                <li><label for="contacto">Teléfono (opcional):</label>
-                <input type="text" id="Teléfono"></li>
-
-                <li><label for="mensaje">Mensaje:</label>
-                <input type="text" id="Mensaje"></li>
-
-                <input type="submit" value="Enviar" class="btn"> 
-                <input type="reset" value="Borrar" class="btn">
-
-            </ul>
+               <div class="contenedor-botones">
+                <input type="button" value="Enviar" class="boton">
+                <input type="reset" value="Reset" class="boton">
+               </div> 
+                
+            
+            </form>
+        </div>
 
 
 
